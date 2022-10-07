@@ -176,6 +176,15 @@ button{
     color: var(--accent-color);
 }
 
+.contact-phone-number:hover,
+.contact-phone-number:focus{
+    color: var(--accent-color);
+}
+
+.contact-phone-number-icon:hover,
+.contact-phone-number-icon:focus{
+    color: var(--accent-color);
+}
 
 /*--HERO--*/
 
@@ -302,8 +311,14 @@ button{
 
 
 .portfolio-card{
-    border: 1px solid #EEEEEE;
     flex-basis: calc(( 100% - 60px ) / 3);
+}
+
+.portfolio-card-info{
+    padding: 20px 24px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 /*--FEATURES--*/
@@ -429,9 +444,11 @@ button{
     border-radius: 0px 0px 4px 4px;
 }
 
+.team-card-info{
+    padding: 30px 10px;
+}
+
 .team-content-wrapper{
-    padding-top: 30px;
-    padding-bottom: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -472,7 +489,6 @@ button{
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    padding: 16px 32px;
 }
 
 .customers-card:hover,

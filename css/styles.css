@@ -257,27 +257,6 @@ button{
     border-radius: 4px;
 }
 
-.modal-open-btn-portfolio{
-    font-family: var(--primary-font);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
-    /* identical to box height, or 162% */
-    text-align: center;
-    border: none;
-    border-radius: 4px;
-    padding: 6px 22px;
-}
-
-.modal-open-btn-portfolio:hover,
-.modal-open-btn-portfolio:focus{
-    background-color:var(--accent-color);
-    color: var(--primary-text-color-theme-dark);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-}
-
-
 .modal-open-btn:hover,
 .modal-open-btn:focus{
     background:var(--accent-color);
@@ -309,7 +288,6 @@ button{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-
 .portfolio-card{
     flex-basis: calc(( 100% - 60px ) / 3);
 }
@@ -319,6 +297,43 @@ button{
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
+}
+
+.projects-name{
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    margin-bottom: 4px;
+    color: #212121;
+}
+
+.projects-text{
+    font-size: 16px;
+    line-height: 1.88;
+    /* identical to box height, or 188% */
+    color: var(--primary-text-color-theme-light);
+    margin-top: 4px;
+}
+
+.modal-open-btn-portfolio{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    /* identical to box height, or 162% */
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 22px;
+}
+
+.modal-open-btn-portfolio:hover,
+.modal-open-btn-portfolio:focus{
+    background-color:var(--accent-color);
+    color: var(--primary-text-color-theme-dark);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
 /*--FEATURES--*/
@@ -361,33 +376,11 @@ button{
     margin-bottom: 10px;
 }
 
-.projects-name{
-    font-size: 18px;
-    line-height: 2;
-    /* identical to box height, or 200% */
-    letter-spacing: 0.06em;
-    padding-top: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
-    margin-bottom: 4px;
-    color: #212121;
-}
 
 .features-text{
     line-height: 1.71;
     /* or 171% */
     color: var(--primary-text-color-theme-light);
-}
-
-.projects-text{
-    font-size: 16px;
-    line-height: 1.88;
-    /* identical to box height, or 188% */
-    color: var(--primary-text-color-theme-light);
-    padding-top: 4px;
-    padding-bottom: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
 }
 
 /*--ACTIVITY--*/
